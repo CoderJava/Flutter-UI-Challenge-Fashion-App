@@ -168,7 +168,10 @@ class WidgetDescription extends StatelessWidget {
             child: LayoutBuilder(
               builder: (context, constraints) {
                 return ListView(
-                  padding: EdgeInsets.all(0.0),
+                  padding: EdgeInsets.only(
+                      bottom: mediaQuery.size.height -
+                          mediaQuery.size.height / 1.1 +
+                          16.0),
                   children: <Widget>[
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
