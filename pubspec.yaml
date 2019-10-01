@@ -24,6 +24,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
+  # A Flutter plugin to provides internalization and localization facilities, including message
+  # translation, plurals and genders, date/number formatting and parsing, and bidirectional text
+  intl: ^0.16.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
